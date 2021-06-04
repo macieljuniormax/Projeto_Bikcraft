@@ -23,6 +23,10 @@
   clear: both;
 }
 
+img {
+  display: block;
+}
+
 .grid_1,
 .grid_2,
 .grid_3,
