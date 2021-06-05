@@ -1,0 +1,25 @@
+.introducao_sobre {
+  background: url('../imagens/backgrounds/background_sobre.jpg') no-repeat
+    center;
+}
+
+.missao_sobre {
+  padding-top: 60px;
+}
+
+.missao_sobre p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 18px;
+  padding-right: 60px;
+}
+
+.missao_sobre ul li {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto_equipe {
+  padding-top: 20px;
+}

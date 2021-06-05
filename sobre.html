@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/grid.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Bikcraft - Home</title>
+    <link rel="stylesheet" href="/css/sobre.css" />
+    <title>Bikcraft - Sobre</title>
   </head>
   <body>
     <!-------------------------------------------------------------------------------->
-    <!--                             Cabeçalho da página                            -->
+    <!--                             Cabeçalho da Sobre                             -->
     <!-------------------------------------------------------------------------------->
     <header class="header">
       <div class="container">
@@ -21,7 +22,7 @@
         </a>
         <nav class="header_menu grid_12">
           <ul>
-            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
             <li><a href="produtos.html">Produtos</a></li>
             <li><a href="portfolio.html">Porfólio</a></li>
             <li><a href="contato.html">Contato</a></li>
@@ -31,91 +32,52 @@
     </header>
 
     <!-------------------------------------------------------------------------------->
-    <!--                           Introdução Página Home                           -->
+    <!--                           Introdução Página Sobre                          -->
     <!-------------------------------------------------------------------------------->
-    <section class="introducao">
+    <section class="introducao_interna introducao_sobre">
       <div class="container">
-        <h1>Bicicletas Feitas a Mão</h1>
-        <blockquote class="quote_externo">
-          <p>
-            "não tenha nada em sua casa que você não considere útil ou acredita
-            ser bonito."
-          </p>
-          <cite>WILLIAN MORRIS </cite>
-        </blockquote>
-        <a href="produtos.html" class="botao">Orçamento</a>
+        <h1>Sobre</h1>
+        <p>conheça mais sobre a bikcraft</p>
       </div>
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                            Produtos Página Home                            -->
+    <!--                               Missão Página Sobre                          -->
     <!-------------------------------------------------------------------------------->
-    <section class="produtos container">
-      <h2 class="subtitulo">Produtos</h2>
-      <ul class="produtos_lista">
-        <li class="grid_1_3">
-          <div class="produtos_icone">
-            <img src="/imagens/icones/passeio.svg" alt="Bicicleta Passeio" />
-          </div>
-          <h3>Passeio</h3>
-          <p>Muito melhor do que passear pela orla a vidros fechados.</p>
-        </li>
-        <li class="grid_1_3">
-          <div class="produtos_icone">
-            <img src="/imagens/icones/esporte.svg" alt="Bicicleta Passeio" />
-          </div>
-          <h3>Passeio</h3>
-          <p>Muito melhor do que passear pela orla a vidros fechados.</p>
-        </li>
-        <li class="grid_1_3">
-          <div class="produtos_icone">
-            <img src="/imagens/icones/retro.svg" alt="Bicicleta Passeio" />
-          </div>
-          <h3>Passeio</h3>
-          <p>Muito melhor do que passear pela orla a vidros fechados.</p>
-        </li>
-      </ul>
-      <div class="call_to_action">
-        <p>cliquea aqui e veja os detalhes dos produtos</p>
-        <a href="produtos.html" class="botao botao_preto">Produtos</a>
+    <section class="container missao_sobre">
+      <div class="grid_10">
+        <h2 class="subtitulo_interno">História, Missão e Visão</h2>
+        <p>
+          Quando iniciamos a Bikcraft queriamos apenas um produto que
+          adoraríamos utilizar. Eramos apaixonados por pedalar e também por
+          fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na
+          garagem da nossa casa.
+        </p>
+        <p>
+          Conheça os nossos produtos, pergunte para os nossos clientes e
+          descubra a maravilha de ter uma Bikcraft na sua casa.
+        </p>
       </div>
-    </section>
-
-    <!-------------------------------------------------------------------------------->
-    <!--                            Portfólioa Página Home                          -->
-    <!-------------------------------------------------------------------------------->
-    <section class="portfolio">
-      <div class="container">
-        <h2 class="subtitulo">Portfólio</h2>
-        <ul class="portfolio_lista">
-          <li class="grid_8">
-            <img
-              src="/imagens/portfolio/foto_retro_portfolio_home.jpg"
-              alt="Bicicleta Retrô"
-            />
-          </li>
-          <li class="grid_8">
-            <img
-              src="/imagens/portfolio/foto_passeio_portfolio_home.jpg"
-              alt="Bicicleta Passeio"
-            />
-          </li>
-          <li class="grid_16">
-            <img
-              src="/imagens/portfolio/foto_sport_portfolio_home.jpg"
-              alt="Bicicleta Sport"
-            />
-          </li>
+      <div class="grid_6">
+        <h2 class="subtitulo_interno">Valores</h2>
+        <ul>
+          <li>- Qualidade</li>
+          <li>- Foco no Cliente</li>
+          <li>- Diversão</li>
+          <li>- Natureza com Sustentabilidade</li>
         </ul>
       </div>
-      <div class="call_to_action">
-        <p>conheça mais o nosso portfólio</p>
-        <a href="produtos.html" class="botao">Produtos</a>
+      <div class="grid_16">
+        <img
+          class="foto_equipe"
+          src="./imagens/sobre/foto_historia_sobre.jpg"
+          alt=""
+        />
       </div>
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                             Qualidade Página Home                          -->
+    <!--                             Qualidade Página Sobre                         -->
     <!-------------------------------------------------------------------------------->
     <section class="qualidade container">
       <h2 class="subtitulo">Qualidade</h2>
@@ -147,14 +109,10 @@
           </p>
         </li>
       </ul>
-      <div class="call_to_action">
-        <p>conheça mais a nossa história</p>
-        <a href="produtos.html" class="botao botao_preto">Produtos</a>
-      </div>
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                               Quote Página Home                            -->
+    <!--                               Quote Página Sobre                           -->
     <!-------------------------------------------------------------------------------->
     <section class="quote">
       <blockquote class="quote_externo">
@@ -167,7 +125,7 @@
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                               Quote Página Home                            -->
+    <!--                               Footer Página Sobre                          -->
     <!-------------------------------------------------------------------------------->
     <footer>
       <div class="footer">
