@@ -1,6 +1,7 @@
 .introducao_sobre {
   background: url('../imagens/backgrounds/background_sobre.jpg') no-repeat
     center;
+  background-size: cover;
 }
 
 .missao_sobre {

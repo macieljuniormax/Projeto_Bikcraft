@@ -161,7 +161,6 @@ p {
   width: 100%;
   margin-top: 92px;
   height: 160px;
-  background-size: cover;
   color: #ffffff;
   padding-top: 30px;
   text-align: center;
@@ -313,6 +312,7 @@ p {
 .quote {
   background: url('../imagens/backgrounds/bacgroungd-quote.jpg') no-repeat
     center;
+  background-size: cover;
   text-align: center;
   padding: 40px 0;
   width: 100%;
