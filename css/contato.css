@@ -1,0 +1,106 @@
+/*----------------------------------------------------------------------------*/
+/*                        Estilos Contato Introdução                          */
+/*----------------------------------------------------------------------------*/
+.introducao_contato {
+  background: url('../imagens/backgrounds/background_intro_contato.jpg')
+    no-repeat center;
+  background-size: cover;
+}
+
+.section_produtos {
+  padding-top: 60px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                       Estilos Contato Orçamento                            */
+/*----------------------------------------------------------------------------*/
+.orcamento_contato {
+  padding: 40px 0;
+}
+
+.orcamento_contato_form label {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.orcamento_contato_form input,
+.orcamento_contato_form textarea {
+  width: 100%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #fec63e;
+  background: none;
+  padding: 7px 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+}
+
+.orcamento_contato_form textarea {
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.orcamento_contato_form button {
+  background: none;
+  padding: 7px 40px;
+}
+
+.orcamento_contato_dados {
+  color: #000000;
+}
+
+.orcamento_contato_dados h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #fec63e;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.orcamento_contato_dados p {
+  margin-bottom: 8px;
+}
+
+.orcamento_contato_dados span {
+  display: block;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+}
+
+.dados,
+.especificacoes {
+  margin-bottom: 40px;
+  padding: 0 60px 0 100px;
+}
+
+.dados :nth-of-type(2) {
+  margin-bottom: 20px;
+}
+
+.orcamento_contato_dados ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.orcamento_contato_dados ul li a {
+  border-style: solid;
+  border-color: #fec63e;
+  border-width: 3px;
+  display: block;
+  padding: 10px;
+}
+
+.orcamento_contato_dados a:hover {
+  border-color: #000000;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                          Estilos Contato Mapa                              */
+/*----------------------------------------------------------------------------*/
