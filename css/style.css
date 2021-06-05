@@ -6,6 +6,8 @@ body {
 }
 
 p {
+  font-size: 14px;
+  line-height: 20px;
   font-family: Georgia, 'Times New Roman', serif;
 }
 
@@ -20,19 +22,16 @@ p {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  transition: 1s;
 }
 
 .botao:hover {
   color: #ffffff;
   border-color: #ffffff;
-  font-size: 18px;
 }
 
 .botao_preto:hover {
   color: #000000;
   border-color: #000000;
-  font-size: 18px;
 }
 
 .subtitulo {
@@ -84,12 +83,10 @@ p {
   letter-spacing: 0.1em;
   font-size: 14px;
   padding: 20px 0;
-  transition: 1s;
 }
 
 .header_menu ul li a:hover {
   color: white;
-  font-size: 20px;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -269,6 +266,8 @@ p {
     center;
   text-align: center;
   padding: 40px 0;
+  width: 100%;
+  height: 220px;
 }
 
 blockquote .quote_externo {
@@ -279,4 +278,71 @@ blockquote .quote_externo {
 .quote_externo p,
 .quote_externo cite {
   color: #ffffff;
+}
+
+.quote .quote_externo {
+  max-width: 450px;
+  padding-top: 20px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                           Estilos Home Footer                              */
+/*----------------------------------------------------------------------------*/
+.footer {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer H3 {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fec63e;
+}
+
+.footer H3:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fec63e;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.footer_historia {
+  padding-right: 50px;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  border-style: solid;
+  border-color: #fec63e;
+  border-width: 3px;
+  display: block;
+  padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #ffffff;
+}
+
+.copy {
+  width: 100%;
+  background-color: #fec63e;
+  padding: 20px 0;
 }
