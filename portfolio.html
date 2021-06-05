@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/grid.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Bikcraft - Home</title>
+    <link rel="stylesheet" href="/css/portfolio.css" />
+    <title>Bikcraft -Porfólio</title>
   </head>
   <body>
     <!-------------------------------------------------------------------------------->
-    <!--                             Cabeçalho da página                            -->
+    <!--                             Cabeçalho da Portfólio                             -->
     <!-------------------------------------------------------------------------------->
     <header class="header">
       <div class="container">
@@ -23,7 +24,7 @@
           <ul>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="portfolio.html" class="menu_ativo">Porfólio</a></li>
             <li><a href="contato.html">Contato</a></li>
           </ul>
         </nav>
@@ -31,62 +32,34 @@
     </header>
 
     <!-------------------------------------------------------------------------------->
-    <!--                           Introdução Página Home                           -->
+    <!--                         Introdução Página Portfólio                        -->
     <!-------------------------------------------------------------------------------->
-    <section class="introducao">
+    <section class="introducao_interna introducao_portfolio">
       <div class="container">
-        <h1>Bicicletas Feitas a Mão</h1>
-        <blockquote class="quote_externo">
-          <p>
-            "não tenha nada em sua casa que você não considere útil ou acredita
-            ser bonito."
-          </p>
-          <cite>WILLIAN MORRIS </cite>
-        </blockquote>
-        <a href="produtos.html" class="botao">Orçamento</a>
+        <h1>Portfólio</h1>
+        <p>conheça os projetos que amamos mostrar</p>
       </div>
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                            Produtos Página Home                            -->
+    <!--                            Quote Página Portfólio                          -->
     <!-------------------------------------------------------------------------------->
-    <section class="produtos container">
-      <h2 class="subtitulo">Produtos</h2>
-      <ul class="produtos_lista">
-        <li class="grid_1_3">
-          <div class="produtos_icone">
-            <img src="/imagens/icones/passeio.svg" alt="Bicicleta Passeio" />
-          </div>
-          <h3>Passeio</h3>
-          <p>Muito melhor do que passear pela orla a vidros fechados.</p>
-        </li>
-        <li class="grid_1_3">
-          <div class="produtos_icone">
-            <img src="/imagens/icones/esporte.svg" alt="Bicicleta Passeio" />
-          </div>
-          <h3>Passeio</h3>
-          <p>Muito melhor do que passear pela orla a vidros fechados.</p>
-        </li>
-        <li class="grid_1_3">
-          <div class="produtos_icone">
-            <img src="/imagens/icones/retro.svg" alt="Bicicleta Passeio" />
-          </div>
-          <h3>Passeio</h3>
-          <p>Muito melhor do que passear pela orla a vidros fechados.</p>
-        </li>
-      </ul>
-      <div class="call_to_action">
-        <p>cliquea aqui e veja os detalhes dos produtos</p>
-        <a href="produtos.html" class="botao botao_preto">Produtos</a>
-      </div>
+    <section class="container">
+      <blockquote class="quote_cliente">
+        <p>
+          “Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez
+          foi intensificar o meu amor por esta atividade. Recomendo à todos que
+          amo.”
+        </p>
+        <cite>Barbara Moss</cite>
+      </blockquote>
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                            Portfólioa Página Home                          -->
+    <!--                          Portfólio Página Portfólio                        -->
     <!-------------------------------------------------------------------------------->
     <section class="portfolio">
       <div class="container">
-        <h2 class="subtitulo">Portfólio</h2>
         <ul class="portfolio_lista">
           <li class="grid_8">
             <img
@@ -108,53 +81,10 @@
           </li>
         </ul>
       </div>
-      <div class="call_to_action">
-        <p>conheça mais o nosso portfólio</p>
-        <a href="produtos.html" class="botao">Produtos</a>
-      </div>
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                             Qualidade Página Home                          -->
-    <!-------------------------------------------------------------------------------->
-    <section class="qualidade container">
-      <h2 class="subtitulo">Qualidade</h2>
-      <img
-        src="/imagens/logos/bikcraft-qualidade.svg"
-        alt="Bikcraft"
-        class="imagem_qualidade"
-      />
-      <ul class="qualidade_lista">
-        <li class="grid_1_3">
-          <h3>Durabilidade</h3>
-          <p>
-            Sólida como pedra, leve como o vento e resistente como o diamante,
-            são nossos diferenciais.
-          </p>
-        </li>
-        <li class="grid_1_3">
-          <h3>Design</h3>
-          <p>
-            Feitas sob medida para o melhor conforto e eficiência. Adaptamos a
-            sua Bikcraft para o seu corpo.
-          </p>
-        </li>
-        <li class="grid_1_3">
-          <h3>Sustentabilidade</h3>
-          <p>
-            Além de ajudar a cuidar do meio ambiente, tirando carros da rua,
-            toda a produção é sustentável.
-          </p>
-        </li>
-      </ul>
-      <div class="call_to_action">
-        <p>conheça mais a nossa história</p>
-        <a href="produtos.html" class="botao botao_preto">Produtos</a>
-      </div>
-    </section>
-
-    <!-------------------------------------------------------------------------------->
-    <!--                               Quote Página Home                            -->
+    <!--                               Quote Página Sobre                           -->
     <!-------------------------------------------------------------------------------->
     <section class="quote">
       <blockquote class="quote_externo">
@@ -167,7 +97,7 @@
     </section>
 
     <!-------------------------------------------------------------------------------->
-    <!--                               Quote Página Home                            -->
+    <!--                               Footer Página Sobre                          -->
     <!-------------------------------------------------------------------------------->
     <footer>
       <div class="footer">
