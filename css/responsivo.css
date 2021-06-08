@@ -25,6 +25,37 @@
     width: 26px;
     height: 26px;
   }
+
+  /*                            Estilos Itens Produtos                           */
+  .produto_itens h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    position: relative;
+    top: -120px;
+    text-align: center;
+    color: #ffffff;
+    margin: -27px;
+  }
+
+  .produto_icones {
+    background-color: #000000;
+    height: 222.24px;
+    padding: 41.12px 0;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    height: 119.56px;
+    line-height: 25px;
+    padding: 11px 20px 11px 20px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
+    height: 49x;
+  }
 }
 
 /*----------------------------------------------------------------------------*/
@@ -61,15 +92,8 @@
     border-color: #ffffff;
   }
 
-  .introducao {
-    height: 380px;
-    width: 100%;
-    background-image: url('../imagens/backgrounds/background_intro_home.jpg');
-    background-size: cover;
-    margin-top: 92px;
-    text-align: center;
-    padding: 80px;
-    color: #ffffff;
+  .header_menu ul li a.menu_ativo {
+    border-color: #ffffff;
   }
 
   /*                        Estilos Home Introdução                             */
@@ -78,6 +102,10 @@
     padding-top: 40px;
     background-image: url('../imagens/backgrounds/Mobile/background_intro_home_mobile.jpg');
     background-size: cover;
+  }
+
+  .introducao_interna {
+    margin-top: 0px;
   }
 
   .introducao H1 {
@@ -111,5 +139,72 @@
 
   .call_to_action p {
     margin-bottom: 20px;
+  }
+
+  /*                       Estilos Sobre Missão                                 */
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /*                            Estilos Itens Produtos                           */
+  .produto_itens h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    position: relative;
+    top: -68px;
+    text-align: center;
+    color: #ffffff;
+    margin: -35px;
+  }
+
+  .produto_icones {
+    background-color: #000000;
+    height: 222.24px;
+    padding: 41.12px 0;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    height: 112px;
+    line-height: 25px;
+    padding: 11px 20px 11px 20px;
+  }
+
+  .produto_info ul li {
+    width: 149px;
+    height: 49x;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .produto_info ul {
+    background: #000000;
+    height: 112px;
+  }
+
+  .orcamento_dados {
+    margin-top: 40px;
+  }
+
+  .dados,
+  .especificacoes {
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  .orcamento {
+    padding-bottom: 0;
+  }
+
+  .orcamento_contato {
+    padding-bottom: 0;
   }
 }
