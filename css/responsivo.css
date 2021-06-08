@@ -2,6 +2,29 @@
 /*                           Estilo para tablet                               */
 /*----------------------------------------------------------------------------*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*                            Estilos Home Qualidade                          */
+  .qualidade:after {
+    right: 74.6px;
+  }
+
+  .qualidade_lista li {
+    text-align: center;
+    padding: 0 0px;
+  }
+
+  /*                            Estilos Home Footer                             */
+  .footer_redes ul li a {
+    border-style: solid;
+    border-color: #fec63e;
+    border-width: 3px;
+    display: block;
+    padding: 5px;
+  }
+
+  .footer_redes ul li a img {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 /*----------------------------------------------------------------------------*/
@@ -52,8 +75,41 @@
   /*                        Estilos Home Introdução                             */
   .introducao {
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 40px;
     background-image: url('../imagens/backgrounds/Mobile/background_intro_home_mobile.jpg');
     background-size: cover;
+  }
+
+  .introducao H1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /*                        Estilos Home Produtos                              */
+  .produtos {
+    padding: 40px 0;
+  }
+
+  /*                        Estilos Home Qualidade                              */
+  .qualidade:after {
+    display: none;
+  }
+
+  .qualidade_lista li {
+    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 20px;
+  }
+
+  /*                            Estilos Call                                    */
+  .call_to_action {
+    text-align: center;
+    padding-top: 5px;
+    clear: both;
+  }
+
+  .call_to_action p {
+    margin-bottom: 20px;
   }
 }
