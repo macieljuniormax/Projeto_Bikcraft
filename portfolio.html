@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Bikcraft -Porfólio</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,6 +12,9 @@
     <link rel="stylesheet" href="/css/portfolio.css" />
     <link rel="stylesheet" href="/css/responsivo.css" />
     <title>Bikcraft -Porfólio</title>
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
   </head>
   <body>
     <!-------------------------------------------------------------------------------->
@@ -45,14 +49,30 @@
     <!-------------------------------------------------------------------------------->
     <!--                            Quote Página Portfólio                          -->
     <!-------------------------------------------------------------------------------->
-    <section class="container">
+    <section class="container" data-slide="quote">
       <blockquote class="quote_cliente">
         <p>
-          “Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez
-          foi intensificar o meu amor por esta atividade. Recomendo à todos que
-          amo.”
+          “Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa é a
+          minha companheira mais fiel, nunca me traiu e está sempre a minha
+          disposição.”
         </p>
-        <cite>Barbara Moss</cite>
+        <cite>Jhony Rato</cite>
+      </blockquote>
+      <blockquote class="quote_cliente">
+        <p>
+          Bernardo “Pedalar sempre foi a minha paixão, o que o pessoal da
+          Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo
+          à todos que amo.”
+        </p>
+        <cite>BARBARA MOSS</cite>
+      </blockquote>
+      <blockquote class="quote_cliente">
+        <p>
+          “Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão
+          perdendo. A precisão é absurda e a velocidade transcendental. Nunca
+          vida nada igual.”
+        </p>
+        <cite>BERNARDO</cite>
       </blockquote>
     </section>
 
@@ -60,7 +80,7 @@
     <!--                          Portfólio Página Portfólio                        -->
     <!-------------------------------------------------------------------------------->
     <section class="portfolio">
-      <div class="container">
+      <div class="container" data-slide="portfolio">
         <ul class="portfolio_lista">
           <li class="grid_8">
             <img
@@ -71,6 +91,26 @@
           <li class="grid_8">
             <img
               src="/imagens/portfolio/foto_passeio_portfolio_home.jpg"
+              alt="Bicicleta Passeio"
+            />
+          </li>
+          <li class="grid_16">
+            <img
+              src="/imagens/portfolio/foto_sport_portfolio_home.jpg"
+              alt="Bicicleta Sport"
+            />
+          </li>
+        </ul>
+        <ul class="portfolio_lista">
+          <li class="grid_8">
+            <img
+              src="/imagens/portfolio/foto_passeio_portfolio_home.jpg"
+              alt="Bicicleta Retrô"
+            />
+          </li>
+          <li class="grid_8">
+            <img
+              src="/imagens/portfolio/foto_retro_portfolio_home.jpg"
               alt="Bicicleta Passeio"
             />
           </li>
@@ -150,5 +190,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple_slide.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

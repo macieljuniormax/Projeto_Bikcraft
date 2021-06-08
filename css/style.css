@@ -401,3 +401,45 @@ blockquote .quote_externo {
   background-color: #fec63e;
   padding: 20px 0;
 }
+
+/*----------------------------------------------------------------------------*/
+/*                              Estilos Slides                                */
+/*----------------------------------------------------------------------------*/
+
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  color: rgba(255, 255, 255, 0);
+  border-radius: 6px;
+  background-color: #1d1d1d;
+
+  /* overflow: hidden;
+     text-indent: -99; */
+}
+
+.js [data-slide-nav] button.active {
+  background-color: #fec63e;
+}
